@@ -26,7 +26,7 @@ import urllib2
 import json
 import time
 
-API_URL = 'https://api.pingdom.com/api/2.0/'
+API_URL = 'https://api.pingdom.com/api/2.1/'
 
 class Pingdom(object):
     def __init__(self, url=API_URL, username=None, password=None, appkey=None):
